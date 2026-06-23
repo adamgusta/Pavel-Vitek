@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { OldHomePage } from "./screens/OldHomePage";
 import { ElveulPage } from "./screens/ElveulPage";
 import { BrandedVitekPage } from "./screens/BrandedVitekPage";
+import { Analytics } from "@vercel/analytics/next";
 
 createRoot(document.getElementById("app") as HTMLElement).render(
   <StrictMode>
@@ -14,5 +15,6 @@ createRoot(document.getElementById("app") as HTMLElement).render(
         <Route path="/pavel-vitek" element={<BrandedVitekPage />} />
       </Routes>
     </BrowserRouter>
+    <Analytics />
   </StrictMode>,
 );
