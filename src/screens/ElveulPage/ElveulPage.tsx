@@ -20,7 +20,7 @@ export const ElveulPage = (): JSX.Element => {
   }, []);
 
   return (
-    <div className="relative min-h-screen w-full overflow-x-hidden scroll-smooth bg-white font-sans">
+    <div className="flex w-full flex-col gap-12">
       <Navigation scrolled={scrolled} />
       <HeroSection />
       <StatsBar />

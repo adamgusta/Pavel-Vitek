@@ -23,7 +23,7 @@ export const HomePage = (): JSX.Element => {
 
   return (
     <main className="relative w-full bg-white">
-      <div className="flex w-full flex-col">
+      <div className="flex w-full flex-col gap-12">
         {sections.map((section) => (
           <section key={section.key} className="relative w-full">
             {section.component}
