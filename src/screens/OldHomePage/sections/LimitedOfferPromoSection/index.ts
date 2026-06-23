@@ -1,0 +1,1 @@
+export { LimitedOfferPromoSection } from "./LimitedOfferPromoSection";
