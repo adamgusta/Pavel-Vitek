@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { OldHomePage } from "./screens/OldHomePage";
 import { ElveulPage } from "./screens/ElveulPage";
+import { BrandedVitekPage } from "./screens/BrandedVitekPage";
 
 createRoot(document.getElementById("app") as HTMLElement).render(
   <StrictMode>
@@ -10,6 +11,7 @@ createRoot(document.getElementById("app") as HTMLElement).render(
       <Routes>
         <Route path="/" element={<ElveulPage />} />
         <Route path="/old" element={<OldHomePage />} />
+        <Route path="/pavel-vitek" element={<BrandedVitekPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
