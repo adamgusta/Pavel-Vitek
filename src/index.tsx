@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { OldHomePage } from "./screens/OldHomePage";
 import { ElveulPage } from "./screens/ElveulPage";
 import { BrandedVitekPage } from "./screens/BrandedVitekPage";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 createRoot(document.getElementById("app") as HTMLElement).render(
   <StrictMode>
